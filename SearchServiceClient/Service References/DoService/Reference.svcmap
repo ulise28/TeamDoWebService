@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d4963d6d-c049-475d-ace8-9396ce8da875" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5342/Services/SearchService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SearchService.wsdl" MetadataType="Wsdl" ID="150b7e37-eebd-4ff6-90a5-8a52ce19b8f5" SourceId="1" SourceUrl="http://localhost:5342/Services/SearchService.svc?wsdl" />
+    <MetadataFile FileName="SearchService.disco" MetadataType="Disco" ID="311eb0bd-a5d6-4df6-bef3-e604df374ae0" SourceId="1" SourceUrl="http://localhost:5342/Services/SearchService.svc?disco" />
+    <MetadataFile FileName="SearchService.xsd" MetadataType="Schema" ID="100b0607-8787-40b6-a07b-7da2e6931ecf" SourceId="1" SourceUrl="http://localhost:5342/Services/SearchService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SearchService1.xsd" MetadataType="Schema" ID="d7c5793b-4011-4ce2-9576-70e6eff4b6e6" SourceId="1" SourceUrl="http://localhost:5342/Services/SearchService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SearchService2.xsd" MetadataType="Schema" ID="529ed189-163c-4e59-8d8a-cefb84182ff3" SourceId="1" SourceUrl="http://localhost:5342/Services/SearchService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,10 @@
+D:\GitHub\TeamDoWebService\SearchServiceClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\GitHub\TeamDoWebService\SearchServiceClient\obj\x86\Debug\SearchServiceClient.Form1.resources
+D:\GitHub\TeamDoWebService\SearchServiceClient\obj\x86\Debug\SearchServiceClient.Properties.Resources.resources
+D:\GitHub\TeamDoWebService\SearchServiceClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\GitHub\TeamDoWebService\SearchServiceClient\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\GitHub\TeamDoWebService\SearchServiceClient\bin\Debug\SearchServiceClient.exe.config
+D:\GitHub\TeamDoWebService\SearchServiceClient\bin\Debug\SearchServiceClient.exe
+D:\GitHub\TeamDoWebService\SearchServiceClient\bin\Debug\SearchServiceClient.pdb
+D:\GitHub\TeamDoWebService\SearchServiceClient\obj\x86\Debug\SearchServiceClient.exe
+D:\GitHub\TeamDoWebService\SearchServiceClient\obj\x86\Debug\SearchServiceClient.pdb

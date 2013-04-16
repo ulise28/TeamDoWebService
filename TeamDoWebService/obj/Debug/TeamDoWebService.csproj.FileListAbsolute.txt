@@ -1,0 +1,5 @@
+D:\GitHub\TeamDoWebService\TeamDoWebService\obj\Debug\ResolveAssemblyReference.cache
+D:\GitHub\TeamDoWebService\TeamDoWebService\bin\TeamDoWebService.dll
+D:\GitHub\TeamDoWebService\TeamDoWebService\bin\TeamDoWebService.pdb
+D:\GitHub\TeamDoWebService\TeamDoWebService\obj\Debug\TeamDoWebService.dll
+D:\GitHub\TeamDoWebService\TeamDoWebService\obj\Debug\TeamDoWebService.pdb

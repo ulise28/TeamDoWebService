@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TeamDoWebService.Contracts" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TeamDoWebService.Contracts" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfIssueDocument">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IssueDocument" nillable="true" type="tns:IssueDocument" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIssueDocument" nillable="true" type="tns:ArrayOfIssueDocument" />
+  <xs:complexType name="IssueDocument">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AssignedCUDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CompanyId" type="xs:int" />
+      <xs:element minOccurs="0" name="CurrentOwner" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DescLast" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DestReminderDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DestinationDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IsAllDay" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IssueId" type="xs:int" />
+      <xs:element minOccurs="0" name="IssueIdPerCompany" type="xs:int" />
+      <xs:element minOccurs="0" name="LastOwner" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastUpdate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PriorityId" type="xs:int" />
+      <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReadUsersBitIds1" type="xs:long" />
+      <xs:element minOccurs="0" name="ReadUsersBitIds2" type="xs:long" />
+      <xs:element minOccurs="0" name="ReccurenceId" type="xs:int" />
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="StatusId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IssueDocument" nillable="true" type="tns:IssueDocument" />
+</xs:schema>
